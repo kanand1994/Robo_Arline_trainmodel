@@ -109,8 +109,3 @@ explainer = shap.TreeExplainer(best_model)
 shap_values = explainer.shap_values(X_test)
 shap.summary_plot(shap_values, X_test, feature_names=X.columns)
 
-# ======================================
-# Export for Power BI
-# ======================================
-joblib.dump(best_model, 'profit_predictor.pkl')
-pd.Series(X.columns).to_csv('feature_names.csv', index=False)
