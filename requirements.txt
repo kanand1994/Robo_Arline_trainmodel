@@ -1,0 +1,7 @@
+pandas 
+numpy 
+pandera 
+scikit-learn 
+category_encoders 
+xgboost shap 
+joblib
