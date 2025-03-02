@@ -3,5 +3,7 @@ numpy
 pandera 
 scikit-learn 
 category_encoders 
-xgboost shap 
+xgboost 
+shap 
 joblib
+tensorflow
